@@ -1,0 +1,19 @@
+{
+  "name": "package-ls",
+  "version": "0.0.1",
+  "description": "A utility for producing a flat list of packages by recursively parsing package.json from a specific starting directory.",
+  "main": "index.js",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Neave <chrispneave@gmail.com>",
+  "license": "MIT",
+  "preferGlobal": true,
+  "bin": {
+    "package-ls": "bin/package-ls.js"
+  }
+}
